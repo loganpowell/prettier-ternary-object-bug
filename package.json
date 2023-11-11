@@ -1,0 +1,19 @@
+{
+    "name": "prettier-ternary-object-bug",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "prettier": {
+        "printWidth": 100,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "always",
+        "semi": false,
+        "tabWidth": 3
+    }
+}
